@@ -1,0 +1,23 @@
+S = LinkedList()
+S.push(5)
+S.push(10)
+S.push(100)
+S.push(1000)
+old = S.get_all()
+print(old)
+S.remove_tail()
+new_ls = S.get_all()
+print(new_ls)
+
+
+S = LinkedList()
+S.push(5)
+S.push(10)
+S.push(100)
+S.push(-1000)
+old = S.get_all()
+print(old)
+S.remove_value(100)
+new_ls = S.get_all()
+print(new_ls)
+
